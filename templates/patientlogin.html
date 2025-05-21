@@ -71,6 +71,7 @@
             cursor: pointer;
             width: 100%;
             transition: background-color 0.3s ease;
+            margin: 2%;
         }
 
         button:hover {
@@ -128,9 +129,10 @@
             <input id="username" type="text" placeholder="Enter your username" required>
             <input id="password" type="password" placeholder="Enter your password" required>
             <button type="submit">Login</button>
+            <button onclick="window.history.back()">Back</button>
         </form>
         <p id="errorMessage">Invalid username or password.</p>
-        <button class="back-button" onclick="window.history.back()">Back</button>
+        
     </div>
 
     <script>

@@ -160,6 +160,7 @@ h1 {
     color: #1E3A8A;
     margin-bottom: 3%;
     font-weight: bold;
+    margin-top: 10%;
 }
 
 h2 {
@@ -199,27 +200,20 @@ img {
 }
 
 .back-button {
-    position: fixed;
-    top: 1.5%;
-    left: 1.5%;
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #007bff;
-    color: white;
+    background-color: pink; /* Set background color to pink */
+    color: white; /* Text color */
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    z-index: 1000;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin-top: 500px; /* Add margin to separate from other elements */
+    display: block; /* Ensure it takes full width */
+    width: 100%; /* Make the button full width */
 }
-
 .back-button:hover {
-    background-color: #0056b3;
-}
-
-.back-button:active {
-    background-color: #004085;
+    background-color: #ff69b4; /* Darker pink for hover effect */
 }
 
 @media (max-width: 768px) {
@@ -270,7 +264,3 @@ img {
         margin: 2% 0;
     }
 }
-
-
-
-

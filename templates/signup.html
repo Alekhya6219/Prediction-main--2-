@@ -54,12 +54,13 @@
             </div>
 
             <button type="submit">Signup</button>
+            <button onclick="window.history.back()">Back</button>
 
             <p class="error" id="errorMessage" style="display:none;"></p>
         </form>
 
         <p>Already registered? <a href="{{ url_for('login') }}">Login here</a></p>
-        <button class="back-button" onclick="window.history.back()">Back</button>
+        
     </div>
     <script>
 
